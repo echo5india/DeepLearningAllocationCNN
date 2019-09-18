@@ -1,5 +1,4 @@
 import tensorflow as tf
-import os
 from utils import log
 from config.config import DEFAULT_LEARNING_RATE, DEFAULT_TF_OPTIMIZER, DEFAULT_LOG_ENV
 
