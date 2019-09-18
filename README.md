@@ -7,6 +7,8 @@ In this project, we aim to implement Convolutional Neural Networks for portfolio
 
 For more processing details, please refer to Project_Report.pdf
 
+#### For a clear description of all steps needed to process data, train and backtest run data_and_training.ipynb.
+
 ## Image Encoding (1.2 Image Encoding)
 
 GAF and MTF are adopted to convert stock data into images.
