@@ -15,7 +15,7 @@ GAF and MTF are adopted to convert stock data into images.
 
 The image size indicates the length of data dumped in one image. A large size length may make the image incorporate too much out-of-date information which could have weak predictive power; a small side length may lead to under-fitting. We tried 64, which is roughly a quarter that follows financial statements period, so that one image would be comprised of 64 days of stock information. We also tried 42, which is roughly two months.
 
-Figure 1 is one of five examples (project) in GADF Encoding, images are in 42*42 size. We represented them with color to see differences better but a more realistic representation would be black and white since we just have values between [−1, 1]. This five images form a tensor of size 42x42x, we have 5 input channels here.
+Figure 1 is one of five examples (project) in GADF Encoding, images are in 42*42 size. We represented them with color to see differences better but a more realistic representation would be black and white since we just have values between [−1, 1]. This five images form a tensor of size 42x42x5, we have 5 input channels here.
 
 ![Figure 1: GADF Encoding of RET](plots/RET.png)
 
